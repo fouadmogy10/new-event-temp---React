@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root{
+    --main-color:white;
+    --second-color:RGB(242, 84, 95);
+}
+p{
+    font-size: 15px;
+}
+*{
+    font-family: 'Cairo','Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0,.6),rgba(0, 0, 0,.6)),url(imags/intro-bg.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.hero .d-flex{
+    min-height: 100vh;
+    
+}
+.but-def{
+    padding: 10px 20px !important;
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent !important;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    margin: 0 5px;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+.btn-1:hover{
+    background-color: white !important;
+    color: var(--second-color) !important;
+}
+.btn-2{
+    border: 1px solid var(--second-color) !important;
+    background-color: var(--second-color) !important;
+    color: var(--main-color) !important;
+}
+.btn-2:hover{
+    border: 1px solid var(--main-color) !important;
+    background-color: transparent !important;
+    color: var(--second-color) !important;
+}
+.numbers {
+    background-color: RGB(34, 34, 34);
+}
+.numbers svg{
+    font-size: 3rem;
+    color: var(--second-color);
+}
+.SPEAKERS{
+    background-color: RGB(249, 249, 249)
+}
+.two{
+    border-top: 1px solid RGB(249, 249, 249);
+    border-bottom: 1px solid RGB(249, 249, 249);
+}
+.navtap .nav-link{
+    color: black !important;
+}
+.navtap .nav-link.active {
+    border: 0 !important;
+    border-bottom: 1px solid var(--second-color) !important;
+    color: var(--second-color) !important;
+} 
+.register{
+    background-image: linear-gradient(rgba(0, 0, 0,.6),rgba(0, 0, 0,.6)),url(imags/register-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.accordion-item{
+    margin:  10px 0;
+}
+.acc{
+    background-color: RGB(249, 249, 249);
+}
+.accordion-button:focus {
+    background-color: rgb(191, 191, 191) !important;
+    box-shadow: none !important;
+    color: rgb(74, 74, 74) !important;
+
+}
+.footer ul{
+ list-style: none;
+}
+.footer ul li{
+    margin: 10px 5px ;
+}
+.footer ul li {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    text-align: center;
+    padding: 5px 10px;
+}
+.footer ul li:hover{
+    background: #f2545f;
+    color: #ffffff;
+    border-radius: 100px;
+   
+
+}
+.footer span a{
+    color: var(--second-color);
+}
+.footer span a svg{
+    color: var(--second-color);
+    font-size: 2rem;
+}
+.footer span svg{
+    color: rgb(237, 237, 0);
+    font-size: 2rem;
+}
+@media (max-width:991px) {
+    .navbar{
+        background-color: black !important;
+    }
+}
